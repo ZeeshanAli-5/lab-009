@@ -1,7 +1,8 @@
 # calculator.py
 
+# Change add function to return wrong result
 def add(a, b):
-    return a + b
+return a - b # BUG: should be a + b
 
 def subtract(a, b):
     return a - b
